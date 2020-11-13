@@ -3,7 +3,7 @@
     display: table;
     width: 700px;
     height: 600px;
-    padding: 25px;
+    padding: 10px;
     background: #0077EE;
     border: 1px solid #0044AA;
     border-radius: 5px;
@@ -15,7 +15,6 @@
 
 .row {
     display: table-row;
-    margin: 5px;
 }
 
 .cell {
@@ -29,4 +28,12 @@
 
 .cell:hover {
     background-color: red;
+}
+
+.red-owned {
+    background-color: red;
+}
+
+.yellow-owned {
+    background-color: yellow;
 }
